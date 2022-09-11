@@ -1,6 +1,34 @@
 body
 {
     font-family: "Montserrat";
+    text-align: center;
+}
+
+h1, h2, h3{
+    font-family: "Montserrat";
+
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 2;
+}
+
+h2{
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3{
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+p{
+    color: #8f8f8f;
+    font-weight: 400;
 }
 
 /* Navbar Settings*/
@@ -11,43 +39,33 @@ body
 }
 
 .container-fluid{
-    padding: 3% 15% 7%!important;
+    padding: 3% 15% 7%;
 }
 
 .navbar
 {
-    padding: 0rem 0rem 4.5rem !important;
+    padding: 0rem 0rem 4.5rem;
 }
 
 .navbar-brand
 {
-    font-size: 2.5rem !important;
+    font-size: 2.5rem;
     font-family: "Ubuntu";
     font-weight: bold;
 }
 
 .nav-item
 {
-    font-size: 20px !important;
+    font-size: 20px;
     padding: 0px 18px;
 }
-
+ 
 .nav-link
 {
     font-size: 1.2rem;
     font-family: "Montserrat";
 }
 /* Navbar Settings */
-
-
-/* Head Line */
-.head-line{
-    font-family: "Montserrat";
-    font-size: 3rem;
-    font-weight: 900;
-    line-height: 2;
-}
-/* Head Line */
 
 
 /* Download Buttons */
@@ -65,6 +83,7 @@ body
     width: 30%;
     transform: rotate(25deg);
     position: absolute;
+    right: 18%;
 }
 /* Title Image */
 
@@ -80,14 +99,10 @@ body
 
 
 .feature-box{
-    text-align: center;
     padding: 5%;
 }
 
-.feature-para{
-    color: #8f8f8f;
-    font-weight: 400;
-}
+
 
 .feature-icon{
     margin-bottom: 1rem;
@@ -99,25 +114,13 @@ body
     color: #ff4c68;
 }
 
-.feature-heading{
-    font-size: 1.5rem;
-    font-weight: 900;
-}
 /* Features */
 
 
 /* Testimonials */
 #testimonials{
     background-color: #ef8172;
-    text-align: center;
     color: white;
-}
-
-.test-line{
-    font-family: "Montserrat";
-    font-weight: 700;
-    font-size: 3rem;
-    line-height: 1.5;
 }
 
 .test-image{
@@ -136,7 +139,6 @@ body
 /* Press */
 #press{
     background-color: #ef8172;
-    text-align: center;
 }
 
 .press-logo{
@@ -148,7 +150,6 @@ body
 
 /* Pricing */
 #pricing{
-    text-align: center;
     padding: 100px;
     font-family: "Montserrat";
 }
@@ -157,24 +158,14 @@ body
     padding: 3% 2%;
 }
 
-.price-heading{
-    font-weight: 900;
-    font-size: 2.5rem;
-    line-height: 1.5;
-}
-
 .price-line{
     color: #8f8f8f;
-}
-
-.price-inner-head{
-    font-size: 1.5rem;
-    font-weight: 900;
 }
 
 .normal-price-text{
     font-size: 2rem;
     font-weight: 900;
+    color: black;
 }
 
 .silver{
@@ -183,5 +174,64 @@ body
     font-weight: 700;
 }
 /* Pricing */
+
+
+/* Call to Action */
+#cta{
+    background-color: #ff4c68;
+    padding-bottom: 80px;
+}
+
+.cta-line{
+
+    padding: 150px 200px 100px 200px;
+    color: white;
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.download-button-2{
+    margin: 0px 10px 10px 10px;
+}
+/* Call to Action */
+
+/* Footer */
+#footer{
+    padding: 50px 50px 25px 50px;
+}
+
+
+.last-icons{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color:black;
+    padding: 2px 5px 0px 5px;
+    border-radius: 100%;
+}
+
+.last-icons:hover{
+    color: #ff4c68
+}
+/* Footer */
+
+
+/* Media */
+@media (max-width: 1090px)
+{
+    body{
+        text-align: center;
+    }
+
+    .title-image{
+        position:static;
+        transform: rotate(0);
+    }
+}
+/* Media */
+
+
+
 
 
